@@ -1,0 +1,45 @@
+.card {
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-image {
+    height: 380px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-image img {
+    height: 100%;
+}
+
+div.card-content {
+    background: linear-gradient(to right, #EE6E72 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.card:hover div.card-content {
+    background-position: left bottom;
+}
+
+.card:hover div.card-content p {
+    background-position: right bottom;
+    color: rgb(255, 255, 255);
+}
+
+.card-content p {
+    background: linear-gradient(to left, #EE6E72 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+}
+
+.card-content p:hover {
+    background-position: right bottom;
+    color: rgb(255, 255, 255);
+}

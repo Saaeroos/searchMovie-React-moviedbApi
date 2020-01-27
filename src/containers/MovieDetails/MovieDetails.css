@@ -1,0 +1,32 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info img {
+    height: 300px;
+    max-width: 30%;
+    margin: 20px auto;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.info ul {
+    border-radius: 10px;
+    max-width: 50%;
+}
+
+.info ul li span {
+    color: #EE6E72;
+}
+
+.info ul li {
+    /* max-width: 50%; */
+}
+
+.info ul li:hover {
+    background-color: #ebf1f1;
+}
+
