@@ -7,8 +7,7 @@
 .pagination span {
     width: 30px;
     font-size: 16px;
-    
-    /* background-color: teal; */
+    margin: 0 10px;
 }
 .active {
     color: #EE6E72;
